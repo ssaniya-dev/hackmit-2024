@@ -1,0 +1,7 @@
+topmostSubform[0].Page1[0].f1_1[0]: Rect(36.0, 118.0, 431.25, 144.0)
+topmostSubform[0].Page1[0].f1_2[0]: Rect(432.0, 118.0, 576.0, 144.0)
+topmostSubform[0].Page1[0].f1_3[0]: Rect(36.0, 154.0, 576.0, 180.0)
+topmostSubform[0].Page1[0].f1_4[0]: Rect(36.0, 190.0, 576.0, 216.0)
+topmostSubform[0].Page1[0].f1_5[0]: Rect(36.0, 226.0, 576.0, 252.0)
+topmostSubform[0].Page1[0].f1_6[0]: Rect(36.0, 262.0, 244.8000030517578, 288.0)
+topmostSubform[0].Page1[0].f1_7[0]: Rect(244.8000030517578, 262.0, 576.0, 288.0)
