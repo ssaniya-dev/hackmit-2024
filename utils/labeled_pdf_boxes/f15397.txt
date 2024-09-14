@@ -1,3 +1,4 @@
+Page 1:
 form1[0].page_1[0].issuers_transmitters_information[0].issuers_transmitters_name[0]: Rect(36.0, 178.55999755859375, 392.3999938964844, 194.4000244140625)
 form1[0].page_1[0].issuers_transmitters_information[0].issuers_transmitters_address[0]: Rect(36.0, 207.3599853515625, 576.0, 223.20001220703125)
 form1[0].page_1[0].issuers_transmitters_information[0].issuers_transmitters_city[0]: Rect(36.0, 236.15997314453125, 392.3999938964844, 252.0)
@@ -22,6 +23,13 @@ form1[0].page_1[0].extensionFurnishCopies[0]: Rect(36.0, 484.55999755859375, 576
 form1[0].page_1[0].your_signature[0]: Rect(36.0, 732.9600219726562, 248.39999389648438, 756.0)
 form1[0].page_1[0].your_title[0]: Rect(255.60000610351562, 732.9600219726562, 482.3999938964844, 756.0)
 form1[0].page_1[0].your_date[0]: Rect(489.6000061035156, 732.9600219726562, 576.0, 756.0)
+
+----------------------------------------
+
+Page 2:
 form1[0].page_2[0].general_instructions[0].for_additional_information[0].hyperlink[0]: Rect(36.0, 266.39898681640625, 126.0, 277.198974609375)
 form1[0].page_2[0].general_instructions[0].when_to_file[0].hyperlink[0]: Rect(36.0, 316.79901123046875, 176.39999389648438, 327.5989990234375)
 form1[0].page_2[0].specific_instructions[0].if_you_have[0].hyperlink[0]: Rect(316.79998779296875, 669.6010131835938, 421.20001220703125, 680.4010009765625)
+
+----------------------------------------
+

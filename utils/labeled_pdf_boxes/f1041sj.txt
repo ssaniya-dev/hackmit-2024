@@ -1,3 +1,4 @@
+Page 1:
 topmostSubform[0].Page1[0].f1_1[0]: Rect(36.0, 93.9990234375, 431.25, 108.0)
 topmostSubform[0].Page1[0].f1_2[0]: Rect(432.0, 93.9990234375, 576.0, 108.0)
 topmostSubform[0].Page1[0].f1_3[0]: Rect(504.0, 144.0, 576.0, 155.9990234375)
@@ -70,6 +71,10 @@ topmostSubform[0].Page1[0].Table_Part2[0].Line17[0].f1_69[0]: Rect(288.0, 720.04
 topmostSubform[0].Page1[0].Table_Part2[0].Line17[0].f1_70[0]: Rect(360.0, 720.0469970703125, 431.25, 732.0479736328125)
 topmostSubform[0].Page1[0].Table_Part2[0].Line17[0].f1_71[0]: Rect(432.0, 720.0469970703125, 503.25, 732.0479736328125)
 topmostSubform[0].Page1[0].Table_Part2[0].Line17[0].f1_72[0]: Rect(504.0, 720.0469970703125, 576.0, 732.0479736328125)
+
+----------------------------------------
+
+Page 2:
 topmostSubform[0].Page2[0].Table_Part3[0].HeaderRow[0].f2_1[0]: Rect(226.0, 119.9990234375, 278.0, 132.0)
 topmostSubform[0].Page2[0].Table_Part3[0].HeaderRow[0].f2_2[0]: Rect(298.0, 119.9990234375, 350.0, 132.0)
 topmostSubform[0].Page2[0].Table_Part3[0].HeaderRow[0].f2_3[0]: Rect(370.0, 119.9990234375, 422.0, 132.0)
@@ -172,3 +177,6 @@ topmostSubform[0].Page2[0].Table_Part4[0].Row36[0].f2_99[0]: Rect(504.0, 719.994
 topmostSubform[0].Page2[0].Table_Part4[0].Row37[0].f2_100[0]: Rect(360.0, 743.9929809570312, 431.25, 755.9940185546875)
 topmostSubform[0].Page2[0].Table_Part4[0].Row37[0].f2_101[0]: Rect(432.0, 743.9929809570312, 503.25, 755.9940185546875)
 topmostSubform[0].Page2[0].Table_Part4[0].Row37[0].f2_102[0]: Rect(504.0, 743.9929809570312, 576.0, 755.9940185546875)
+
+----------------------------------------
+

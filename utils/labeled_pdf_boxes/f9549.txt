@@ -1,3 +1,4 @@
+Page 1:
 form1[0].#pageSet[0].masterPage1[0].resetForm[0]: Rect(36.0, 770.4000244140625, 126.0, 788.3999633789062)
 form1[0].page1[0].taxpayersName[0]: Rect(36.0, 88.55999755859375, 399.6000061035156, 104.4000244140625)
 form1[0].page1[0].taxpayersSSN[0]: Rect(406.79998779296875, 88.55999755859375, 576.0, 104.4000244140625)
@@ -50,3 +51,6 @@ form1[0].page1[0].taxpayersOtherIncome[0].Row6[0].whereEarnnedHome[0]: Rect(418.
 form1[0].page1[0].taxpayersOtherIncome[0].Row6[0].whereEarnnedOther[0]: Rect(461.6000061035156, 370.79998779296875, 471.6000061035156, 380.79998779296875)
 form1[0].page1[0].taxpayersOtherIncome[0].Row6[0].ficaWithheldYes[0]: Rect(504.79998779296875, 370.79998779296875, 514.7999877929688, 380.79998779296875)
 form1[0].page1[0].taxpayersOtherIncome[0].Row6[0].ficaWithheldNo[0]: Rect(548.0, 370.79998779296875, 558.0, 380.79998779296875)
+
+----------------------------------------
+

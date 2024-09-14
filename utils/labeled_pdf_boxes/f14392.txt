@@ -1,3 +1,4 @@
+Page 1:
 form1[0].Page1Form[0].ApplicantInfo[0].dateApplication[0]: Rect(36.141998291015625, 102.96002197265625, 176.54200744628906, 118.79998779296875)
 form1[0].Page1Form[0].ApplicantInfo[0].applicantName[0]: Rect(183.74200439453125, 102.96002197265625, 464.5419921875, 118.79998779296875)
 form1[0].Page1Form[0].ApplicantInfo[0].telephoneNumber[0]: Rect(471.6000061035156, 102.96002197265625, 576.0, 118.79998779296875)
@@ -61,3 +62,10 @@ form1[0].Page1Form[0].approvingInfo[0].currentwavierApproval[0].CheckBox2[0]: Re
 form1[0].Page1Form[0].approvingInfo[0].ApprovingSig[0]: Rect(36.0, 740.1599731445312, 241.1999969482422, 756.0)
 form1[0].Page1Form[0].approvingInfo[0].approvingName[0]: Rect(248.39999389648438, 740.1599731445312, 450.0, 756.0)
 form1[0].Page1Form[0].approvingInfo[0].dateIRSSigned[0]: Rect(457.20001220703125, 740.1599731445312, 576.0, 756.0)
+
+----------------------------------------
+
+Page 2:
+
+----------------------------------------
+

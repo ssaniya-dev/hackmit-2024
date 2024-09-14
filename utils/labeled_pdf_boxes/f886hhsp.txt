@@ -1,3 +1,7 @@
+Page 1:
 topmostSubform[0].Page1[0].Período_Tributario[0]: Rect(608.4000244140625, 117.3599853515625, 756.0, 133.20001220703125)
 topmostSubform[0].Page1[0].Número_de_Identificación[0]: Rect(421.20001220703125, 117.3599853515625, 601.2000122070312, 133.20001220703125)
 topmostSubform[0].Page1[0].Nombre_del_Contribuyente[0]: Rect(36.0, 117.3599853515625, 414.0, 133.20001220703125)
+
+----------------------------------------
+

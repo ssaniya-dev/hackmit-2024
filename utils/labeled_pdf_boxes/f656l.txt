@@ -1,3 +1,4 @@
+Page 1:
 topmostSubform[0].Page_1[0].contents_list[0].ListItem1[0].Page2[0]: Rect(118.80000305175781, 313.20001220703125, 514.6920166015625, 327.6000061035156)
 topmostSubform[0].Page_1[0].contents_list[0].ListItem2[0].Information[0]: Rect(118.80000305175781, 334.79998779296875, 514.6920166015625, 349.20001220703125)
 topmostSubform[0].Page_1[0].contents_list[0].ListItem3[0].Form[0]: Rect(118.80000305175781, 356.3999938964844, 514.6920166015625, 370.79998779296875)
@@ -8,9 +9,21 @@ topmostSubform[0].Page_1[0].taxpayerAdvocate[0]: Rect(79.19999694824219, 583.200
 topmostSubform[0].Page_1[0].Publication4134[0]: Rect(270.0, 583.2000122070312, 336.6000061035156, 594.0)
 topmostSubform[0].Page_1[0].publication1[0]: Rect(450.0, 651.5999755859375, 500.3999938964844, 662.4000244140625)
 topmostSubform[0].Page_1[0].billOfRights[0]: Rect(198.0, 666.0, 309.6029968261719, 676.7999877929688)
+
+----------------------------------------
+
+Page 2:
+
+----------------------------------------
+
+Page 3:
 topmostSubform[0].Page_3[0].a_lien[0].publication_1660[0]: Rect(259.2030029296875, 186.801025390625, 327.6029968261719, 197.60101318359375)
 topmostSubform[0].Page_3[0].keep_together[0].tool[0]: Rect(414.0, 593.9990234375, 573.2219848632812, 604.7990112304688)
 topmostSubform[0].Page_3[0].keep_together[0].hyperlink[0]: Rect(504.0, 572.3989868164062, 532.7999877929688, 583.198974609375)
+
+----------------------------------------
+
+Page 4:
 topmostSubform[0].Page_4[0].list[0].list_item[0].list[0].list_item[0].form656b[0]: Rect(284.3999938964844, 116.60101318359375, 331.20001220703125, 127.4010009765625)
 topmostSubform[0].Page_4[0].list[0].list_item[1].list[0].list_item[0].form1040x[0]: Rect(162.0, 201.5989990234375, 216.0, 212.39898681640625)
 topmostSubform[0].Page_4[0].list[0].list_item[2].list[0].list_item[0].form1040[0]: Rect(241.1999969482422, 266.427001953125, 288.0, 277.22698974609375)
@@ -25,7 +38,15 @@ topmostSubform[0].Page_4[0].list[0].list_item[6].list[0].list_item[0].hyperlink[
 topmostSubform[0].Page_4[0].list[0].list_item[7].list[0].list_item[0].IRSGov[0]: Rect(507.6000061035156, 551.6270141601562, 558.0, 562.427001953125)
 topmostSubform[0].Page_4[0].list[0].list_item[8].list[0].list_item[0].hyperlink[0]: Rect(54.0, 615.6010131835938, 169.1999969482422, 626.4010009765625)
 topmostSubform[0].Page_4[0].list[0].list_item[9].list[0].list_item[0].about_from_8379[0]: Rect(428.3999938964844, 659.238037109375, 475.20001220703125, 670.0380249023438)
+
+----------------------------------------
+
+Page 5:
 topmostSubform[0].Page_5[0].list[0].list_item[0].list[0].list_item[0].form_656l[0]: Rect(115.19999694824219, 63.4000244140625, 162.0, 74.20001220703125)
+
+----------------------------------------
+
+Page 6:
 topmostSubform[0].Page_6[0].Your_First_Middle_Last_Name[0]: Rect(35.99700164794922, 156.96002197265625, 259.1969909667969, 172.79998779296875)
 topmostSubform[0].Page_6[0].YourSSN[0].Your_SSN_1[0]: Rect(266.3999938964844, 158.4000244140625, 291.6000061035156, 172.79998779296875)
 topmostSubform[0].Page_6[0].YourSSN[0].Your_SSN_2[0]: Rect(306.0, 158.4000244140625, 327.6000061035156, 172.79998779296875)
@@ -81,7 +102,15 @@ topmostSubform[0].Page_6[0]._940[1]._941_Quarterly_Periods_2[0]: Rect(53.9939994
 topmostSubform[0].Page_6[0].other_federal[1].cB_07[0]: Rect(36.09700012207031, 704.2000122070312, 46.09700012207031, 714.2000122070312)
 topmostSubform[0].Page_6[0].other_federal[1]._941_Quarterly_Periods_2[0]: Rect(53.99399948120117, 716.4000244140625, 575.9940185546875, 730.7999877929688)
 topmostSubform[0].Page_6[0].note[0].Attachment_Date[0]: Rect(432.00201416015625, 730.7999877929688, 504.52899169921875, 745.2000122070312)
+
+----------------------------------------
+
+Page 7:
 topmostSubform[0].Page_7[0].we_offer[0].Initial_Payment[0]: Rect(93.59700012207031, 50.4000244140625, 575.9970092773438, 64.79998779296875)
+
+----------------------------------------
+
+Page 8:
 topmostSubform[0].page_8[0].explain_field[0].explain[0]: Rect(36.00299835205078, 172.79998779296875, 575.9940185546875, 280.79998779296875)
 topmostSubform[0].page_8[0].Phone[0].Area_Code[0]: Rect(352.8030090332031, 345.6260070800781, 374.40301513671875, 360.0260009765625)
 topmostSubform[0].page_8[0].Phone[0].Phone1[0]: Rect(381.6029968261719, 345.6260070800781, 410.40301513671875, 360.0260009765625)
@@ -107,6 +136,10 @@ topmostSubform[0].page_8[0].#subform[6].Button1[0]: Rect(496.79998779296875, 644
 topmostSubform[0].page_8[0].#subform[6].Button1[1]: Rect(532.7999877929688, 644.4000244140625, 558.0, 655.2000122070312)
 topmostSubform[0].page_8[0].#subform[6].irs_only[0].IRS_Title[0]: Rect(255.6060028076172, 732.9600219726562, 457.20599365234375, 756.0)
 topmostSubform[0].page_8[0].#subform[6].irs_only[0].Date_Authorized_IRS_Official_Signed[0]: Rect(464.3940124511719, 732.9600219726562, 575.9940185546875, 756.0)
+
+----------------------------------------
+
+Page 9:
 topmostSubform[0].Page_9[0].circular230[0]: Rect(162.0, 151.20001220703125, 313.20001220703125, 162.0)
 topmostSubform[0].Page_9[0].IncludeSupporitngDocumentation[0]: Rect(36.00299835205078, 248.4000244140625, 46.803001403808594, 259.20001220703125)
 topmostSubform[0].Page_9[0].IncludeSupporitngDocumentation[1]: Rect(36.00299835205078, 266.4000244140625, 46.803001403808594, 277.20001220703125)
@@ -115,3 +148,6 @@ topmostSubform[0].Page_9[0].MakeAnOffer[0]: Rect(36.00299835205078, 302.39999389
 topmostSubform[0].Page_9[0].SomeoneOtherCompleted[0]: Rect(36.00299835205078, 360.0, 46.803001403808594, 370.79998779296875)
 topmostSubform[0].Page_9[0].DidYouSign[0]: Rect(36.00299835205078, 378.0, 46.803001403808594, 388.79998779296875)
 topmostSubform[0].Page_9[0].WantThirdParty[0].WantThirdParty[0]: Rect(36.722999572753906, 396.0, 47.52299880981445, 406.79998779296875)
+
+----------------------------------------
+

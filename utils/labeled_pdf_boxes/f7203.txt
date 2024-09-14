@@ -1,3 +1,4 @@
+Page 1:
 topmostSubform[0].Page1[0].f1_01[0]: Rect(36.0, 93.9990234375, 438.45001220703125, 108.0)
 topmostSubform[0].Page1[0].f1_02[0]: Rect(440.20001220703125, 93.9990234375, 576.0, 108.0)
 topmostSubform[0].Page1[0].f1_03[0]: Rect(36.0, 118.0, 438.45001220703125, 132.00103759765625)
@@ -65,6 +66,10 @@ topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_52[0]: Rect(288.0, 743
 topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_53[0]: Rect(360.0, 743.9990234375, 431.25, 756.0)
 topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_54[0]: Rect(432.0, 743.9990234375, 503.25, 756.0)
 topmostSubform[0].Page1[0].Table_SectionA[0].Line20[0].f1_55[0]: Rect(504.0, 743.9990234375, 576.0, 756.0)
+
+----------------------------------------
+
+Page 2:
 topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_01[0]: Rect(288.0, 95.9990234375, 359.25, 108.0)
 topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_02[0]: Rect(360.0, 95.9990234375, 431.25, 108.0)
 topmostSubform[0].Page2[0].Table_SectionB[0].Line21[0].f2_03[0]: Rect(432.0, 95.9990234375, 503.25, 108.0)
@@ -186,3 +191,6 @@ topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_119[0]: Rect(316.79998779
 topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_120[0]: Rect(381.6000061035156, 587.988037109375, 445.6499938964844, 599.989013671875)
 topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_121[0]: Rect(446.3999938964844, 587.988037109375, 510.45001220703125, 599.989013671875)
 topmostSubform[0].Page2[0].Table_Part3[0].Line47[0].f2_122[0]: Rect(511.20001220703125, 587.988037109375, 576.0, 599.989013671875)
+
+----------------------------------------
+

@@ -1,3 +1,4 @@
+Page 1:
 topmostSubform[0].Page1[0].CheckForm[0]: Rect(36.0, 7.9990234375, 244.8000030517578, 32.0)
 topmostSubform[0].Page1[0].TaxpayerName[0]: Rect(36.0, 144.0009765625, 337.6499938964844, 156.00201416015625)
 topmostSubform[0].Page1[0].TaxpayerAddress[0]: Rect(36.0, 155.9990234375, 337.6499938964844, 180.0)
@@ -64,6 +65,10 @@ topmostSubform[0].Page1[0].AdditionalActs3[0]: Rect(64.80000305175781, 684.0, 57
 topmostSubform[0].Page1[0].OtherActs[0]: Rect(64.80000305175781, 710.0, 72.80000305175781, 718.0)
 topmostSubform[0].Page1[0].OtherActs1[0]: Rect(158.39999389648438, 708.0009765625, 576.0, 720.0)
 topmostSubform[0].Page1[0].OtherActs2[0]: Rect(64.80000305175781, 720.0, 576.0, 731.9990234375)
+
+----------------------------------------
+
+Page 2:
 topmostSubform[0].Page2[0].SpecificDeletions1[0]: Rect(489.0140075683594, 83.9990234375, 576.0, 95.99798583984375)
 topmostSubform[0].Page2[0].SpecificDeletions2[0]: Rect(64.80000305175781, 96.0009765625, 576.0, 108.0)
 topmostSubform[0].Page2[0].RetentionRevocation[1]: Rect(568.0, 133.0, 576.0, 141.0)
@@ -90,3 +95,6 @@ topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Jurisdiction4[0]: Rect(10
 topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Bar4[0]: Rect(180.0, 708.0020141601562, 295.20001220703125, 720.0029907226562)
 topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Signature4[0]: Rect(296.20001220703125, 708.0020141601562, 517.6500244140625, 720.0029907226562)
 topmostSubform[0].Page2[0].Table_PartII[0].BodyRow4[0].Date4[0]: Rect(518.4000244140625, 708.0020141601562, 576.0, 720.0029907226562)
+
+----------------------------------------
+

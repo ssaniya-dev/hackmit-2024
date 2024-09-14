@@ -1,3 +1,4 @@
+Page 1:
 form1[0].page1[0].yourName[0]: Rect(36.0, 182.15997314453125, 432.0, 201.5999755859375)
 form1[0].page1[0].yourSSN[0]: Rect(439.20001220703125, 182.15997314453125, 575.9970092773438, 201.5999755859375)
 form1[0].page1[0].yourSpousesName[0]: Rect(36.0, 214.55999755859375, 432.0, 234.0)
@@ -19,6 +20,10 @@ form1[0].page1[0].claimedAsDependent[0]: Rect(36.0, 392.79998779296875, 46.0, 40
 form1[0].page1[0].notValidEmployment[0]: Rect(36.0, 410.79998779296875, 46.0, 420.79998779296875)
 form1[0].page1[0].notOn1040[0].notIncludedOn[0]: Rect(36.08000183105469, 576.4000244140625, 46.08000183105469, 586.4000244140625)
 form1[0].page1[0].claimedOn1040[0].whomYouClaimed[0]: Rect(36.08000183105469, 605.2000122070312, 46.08000183105469, 615.2000122070312)
+
+----------------------------------------
+
+Page 2:
 form1[0].page2[0].dependentInfo[0].Row1[0].dependentName[0].firstName[0]: Rect(158.39999389648438, 219.5999755859375, 356.3999938964844, 234.0)
 form1[0].page2[0].dependentInfo[0].Row1[0].dependentName[0].lastName[0]: Rect(158.39999389648438, 234.0, 356.3999938964844, 248.4000244140625)
 form1[0].page2[0].dependentInfo[0].Row1[0].dependentSSN[0]: Rect(363.6000061035156, 223.20001220703125, 446.3999938964844, 252.0)
@@ -35,3 +40,6 @@ form1[0].page2[0].dependentInfo[0].Row3[0].dependentSSN[0]: Rect(363.60000610351
 form1[0].page2[0].dependentInfo[0].Row3[0].dependentLiveWith[0].optionYes[0]: Rect(453.6000061035156, 288.3999938964844, 463.6000061035156, 298.3999938964844)
 form1[0].page2[0].dependentInfo[0].Row3[0].dependentLiveWith[0].optionNo[0]: Rect(453.6000061035156, 302.79998779296875, 463.6000061035156, 312.79998779296875)
 form1[0].page2[0].#subform[2].ifYouAnswered[0].listItem2[0].howManyDependents[0]: Rect(226.8000030517578, 376.55999755859375, 270.0, 388.79998779296875)
+
+----------------------------------------
+

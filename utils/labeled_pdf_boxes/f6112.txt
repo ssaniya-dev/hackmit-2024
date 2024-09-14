@@ -1,3 +1,4 @@
+Page 1:
 form1[0].page1[0].formHeader[0].previousYears[0]: Rect(237.60000610351562, 100.79998779296875, 493.20001220703125, 115.20001220703125)
 form1[0].page1[0].mailingInformation[0].nameCompany[0]: Rect(36.0, 200.15997314453125, 576.0, 216.0)
 form1[0].page1[0].mailingInformation[0].attention[0]: Rect(36.0, 228.96002197265625, 576.0, 244.79998779296875)
@@ -144,3 +145,6 @@ form1[0].page1[0].writeIn[1].row8[0].formNumber[1]: Rect(309.6000061035156, 702.
 form1[0].page1[0].writeIn[1].row8[0].instructionsNeeded[1]: Rect(440.0, 704.2000122070312, 450.0, 714.2000122070312)
 form1[0].page1[0].writeIn[1].row8[0].taxYear[1]: Rect(471.6000061035156, 702.0, 522.0, 716.4000244140625)
 form1[0].page1[0].writeIn[1].row8[0].quantity[1]: Rect(525.5999755859375, 702.0, 576.0, 716.4000244140625)
+
+----------------------------------------
+

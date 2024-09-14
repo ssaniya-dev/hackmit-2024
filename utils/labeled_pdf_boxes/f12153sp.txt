@@ -1,3 +1,4 @@
+Page 1:
 topmostSubform[0].Page1[0].NoticeOfLien[0]: Rect(46.79999923706055, 252.0, 57.599998474121094, 262.79998779296875)
 topmostSubform[0].Page1[0].NoticeOfLevy[0]: Rect(334.79998779296875, 252.0, 345.6000061035156, 262.79998779296875)
 topmostSubform[0].Page1[0].Q2[0].OnlyCheckThis[0]: Rect(36.0, 289.79998779296875, 46.79999923706055, 300.6000061035156)
@@ -39,6 +40,10 @@ topmostSubform[0].Page1[0].Table1[0].Row3[0].TaxPeriod_03[0]: Rect(399.600006103
 topmostSubform[0].Page1[0].Table1[0].Row4[0].TypeTax_04[0]: Rect(36.0, 734.4000244140625, 219.60000610351562, 756.0)
 topmostSubform[0].Page1[0].Table1[0].Row4[0].TaxFormNo_04[0]: Rect(226.8000030517578, 734.4000244140625, 392.3999938964844, 756.0)
 topmostSubform[0].Page1[0].Table1[0].Row4[0].TaxPeriod_04[0]: Rect(399.6000061035156, 734.4000244140625, 576.0, 756.0)
+
+----------------------------------------
+
+Page 2:
 topmostSubform[0].Page2[0].TaxReported[0]: Rect(36.0, 81.4000244140625, 46.0, 91.4000244140625)
 topmostSubform[0].Page2[0].ClaimInnocent[0]: Rect(36.0, 97.5999755859375, 46.0, 107.5999755859375)
 topmostSubform[0].Page2[0].DischargedInBankruptcy[0]: Rect(36.0, 115.5999755859375, 46.0, 125.5999755859375)
@@ -64,10 +69,18 @@ topmostSubform[0].Page2[0].Signatures[0].Date[0]: Rect(457.20001220703125, 680.4
 topmostSubform[0].Page2[0].IRSUseOnly[0].IRSEmployee[0]: Rect(36.0, 734.4000244140625, 306.0, 756.0)
 topmostSubform[0].Page2[0].IRSUseOnly[0].TelephoneNumber[0]: Rect(313.20001220703125, 734.4000244140625, 450.0, 756.0)
 topmostSubform[0].Page2[0].IRSUseOnly[0].ReceiveDate[0]: Rect(457.20001220703125, 734.4000244140625, 576.0, 756.0)
+
+----------------------------------------
+
+Page 3:
 topmostSubform[0].Page3[0].PenaltyAppeal[0].Notice746[0]: Rect(115.19999694824219, 367.20098876953125, 266.3999938964844, 378.0010070800781)
 topmostSubform[0].Page3[0].InnocentSpouseRelief[0].SBSEInnocentSpouse[0]: Rect(36.0, 416.2569885253906, 500.3999938964844, 439.6570129394531)
 topmostSubform[0].Page3[0].PriorBankruptcy[0].PriorBankruptcy[0]: Rect(115.19999694824219, 511.20098876953125, 547.2000122070312, 532.801025390625)
 topmostSubform[0].Page3[0].LearnMoreAbout[0].UnderstandingTaxLien[0]: Rect(36.0, 698.2659912109375, 500.3999938964844, 719.865966796875)
+
+----------------------------------------
+
+Page 4:
 topmostSubform[0].Page4[0].CollectionResolutionList[0].ListItem1[0].hyperlink[0]: Rect(266.3999938964844, 68.4000244140625, 385.20001220703125, 79.20001220703125)
 topmostSubform[0].Page4[0].CollectionResolutionList[0].ListItem3[0].OfferInCompromise[1]: Rect(54.0, 153.4000244140625, 500.3999938964844, 175.0)
 topmostSubform[0].Page4[0].WantToDiscuss[0].SBSECollectionProcess[0]: Rect(115.19999694824219, 295.20001220703125, 547.2000122070312, 306.0)
@@ -77,3 +90,6 @@ topmostSubform[0].Page4[0].Publication2105[0].Pub2105[0]: Rect(396.0, 475.200012
 topmostSubform[0].Page4[0].list[0].list_item[0].hyperlink[0]: Rect(79.19999694824219, 608.4000244140625, 352.79998779296875, 619.2000122070312)
 topmostSubform[0].Page4[0].list[0].list_item[1].hyperlink[0]: Rect(54.0, 630.0, 169.1999969482422, 640.7999877929688)
 topmostSubform[0].Page4[0].irs_espanol[0]: Rect(64.80000305175781, 723.5999755859375, 154.8000030517578, 734.4000244140625)
+
+----------------------------------------
+

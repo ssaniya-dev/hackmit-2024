@@ -1,3 +1,4 @@
+Page 1:
 form1[0].Page1[0].PeriodRequested[0].new_application[0].CheckBox1[0]: Rect(183.60000610351562, 110.47998046875, 191.60000610351562, 118.47998046875)
 form1[0].Page1[0].PeriodRequested[0].new_application[0].CheckBox2[0]: Rect(273.6000061035156, 110.47998046875, 281.6000061035156, 118.47998046875)
 form1[0].Page1[0].PeriodRequested[0].non_competitive[0].CheckBox3[0]: Rect(183.60000610351562, 128.47998046875, 191.60000610351562, 136.47998046875)
@@ -44,6 +45,10 @@ form1[0].Page1[0].ClinicDirector[0].licensesClinicDirector[0].CPA[0]: Rect(92.83
 form1[0].Page1[0].ClinicDirector[0].licensesClinicDirector[0].enrolledAgent[0]: Rect(136.03500366210938, 725.3599853515625, 144.03500366210938, 733.3599853515625)
 form1[0].Page1[0].ClinicDirector[0].licensesClinicDirector[0].other[0]: Rect(208.03500366210938, 725.3599853515625, 216.03500366210938, 733.3599853515625)
 form1[0].Page1[0].ClinicDirector[0].licensesClinicDirector[0].otherSpecify[0]: Rect(244.8000030517578, 720.0, 576.0, 734.4000244140625)
+
+----------------------------------------
+
+Page 2:
 form1[0].Page2[0].TaxExpert[0].prefix[0]: Rect(36.0, 66.96002197265625, 90.0, 82.79998779296875)
 form1[0].Page2[0].TaxExpert[0].lastName[0]: Rect(97.19999694824219, 66.96002197265625, 262.79998779296875, 82.79998779296875)
 form1[0].Page2[0].TaxExpert[0].firstName[0]: Rect(270.0, 66.96002197265625, 435.6000061035156, 82.79998779296875)
@@ -71,3 +76,10 @@ form1[0].Page2[0].TaxComplianceOfficer[0].suffix[0]: Rect(514.7999877929688, 250
 form1[0].Page2[0].TaxComplianceOfficer[0].title[0]: Rect(36.0, 279.3599853515625, 576.0, 295.20001220703125)
 form1[0].Page2[0].TaxComplianceOfficer[0].telephoneQBA[0]: Rect(36.0, 308.1600036621094, 212.39999389648438, 324.0)
 form1[0].Page2[0].TaxComplianceOfficer[0].emialQBA[0]: Rect(219.60000610351562, 308.1600036621094, 576.0, 324.0)
+
+----------------------------------------
+
+Page 3:
+
+----------------------------------------
+
