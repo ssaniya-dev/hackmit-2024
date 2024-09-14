@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Inbox, Send, Star, Trash, Mail, Plane, PlusCircle, Settings, LogOut, Search, User } from 'lucide-react';
+import { Inbox, Send, Star, Trash, Mail, Plane, PlusCircle, Settings, LogOut, Search } from 'lucide-react';
 
 const EmailClient = () => {
     const [selectedFolder, setSelectedFolder] = useState('inbox');
