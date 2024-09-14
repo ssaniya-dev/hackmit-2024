@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Inbox, Send, Star, Trash, Mail, Plane } from 'lucide-react';
+import { Inbox, Send, Star, Trash, Mail, Plane, PlusCircle, Settings, LogOut, Search, User } from 'lucide-react';
 
 const EmailClient = () => {
     const [selectedFolder, setSelectedFolder] = useState('inbox');
     const [selectedEmail, setSelectedEmail] = useState(null);
+    const [searchQuery, setSearchQuery] = useState('');
 
     const folders = [
         { name: 'Inbox', icon: Inbox },
@@ -36,19 +37,29 @@ const EmailClient = () => {
         },
     ];
 
-    const filteredEmails = emails.filter(email => email.folder === selectedFolder);
+    const filteredEmails = emails.filter(email =>
+        email.folder === selectedFolder &&
+        (email.subject.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            email.sender.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            email.preview.toLowerCase().includes(searchQuery.toLowerCase()))
+    );
 
     return (
-        <div className="flex h-screen bg-gray-100">
-            {/* Sidebar */}
-            <div className="w-64 bg-white border-r">
+        <div className="flex h-screen bg-white">
+            <div className="w-64 bg-gray-100 border-r flex flex-col justify-between">
                 <div className="p-4">
-                    <h2 className="text-3xl font-semibold mb-4">Email Client</h2>
+                    <div className="mb-4">
+                        <button className="flex items-center w-full py-2 bg-gray-900 text-white rounded-md shadow-md hover:bg-gray-800 transition duration-300 ease-in-out transform hover:scale-105">
+                            <PlusCircle className="mr-2 ml-2" size={18} />
+                            Compose
+                        </button>
+                    </div>
+
                     <ul>
                         {folders.map((folder) => (
                             <li
                                 key={folder.name}
-                                className={`flex items-center p-2 cursor-pointer  ${selectedFolder === folder.name.toLowerCase() ? 'bg-blue-100' : ''
+                                className={`flex items-center p-2 rounded-md cursor-pointer  ${selectedFolder === folder.name.toLowerCase() ? 'bg-gray-300' : ''
                                     }`}
                                 onClick={() => setSelectedFolder(folder.name.toLowerCase())}
                             >
@@ -58,14 +69,37 @@ const EmailClient = () => {
                         ))}
                     </ul>
                 </div>
+
+                <div className="p-4 border-t">
+                    <div className="flex items-center p-2 cursor-pointer hover:bg-gray-300 rounded-md">
+                        <Settings className="mr-2" size={18} />
+                        <div className="flex-1">
+                            <div className="font-semibold">Settings</div>
+                        </div>
+                    </div>
+                    <div className="flex items-center p-2 cursor-pointer hover:bg-gray-300 rounded-md mt-2">
+                        <LogOut className="mr-2" size={18} />
+                        <div className="flex-1">
+                            <div className="font-semibold">Log Out</div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            {/* Email list */}
             <div className="w-1/3 bg-white border-r overflow-y-auto text-left">
-                <div className="p-4">
-                    <h3 className="text-2xl font-semibold mb-4">
-                        {selectedFolder.charAt(0).toUpperCase() + selectedFolder.slice(1)}
-                    </h3>
+                <div className="py-4 px-3">
+                    <div className="flex items-center mb-4">
+                        <input
+                            type="text"
+                            placeholder="Search emails..."
+                            className="flex-1 p-2 border rounded-md"
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                        />
+                        <button className="ml-2 p-2 bg-black text-white rounded-md hover:bg-gray-800 transition duration-300 ease-in-out">
+                            <Search size={18} />
+                        </button>
+                    </div>
                     <ul>
                         {filteredEmails.map((email) => (
                             <li
@@ -83,7 +117,7 @@ const EmailClient = () => {
                 </div>
             </div>
 
-            {/* Email viewer */}
+
             <div className="flex-1 bg-white p-4 overflow-y-auto text-left">
                 {selectedEmail ? (
                     <div>
