@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Inbox, Send, Star, Trash, Mail } from 'lucide-react';
+import { Inbox, Send, Star, Trash, Mail, Plane } from 'lucide-react';
 
 const EmailClient = () => {
     const [selectedFolder, setSelectedFolder] = useState('inbox');
@@ -13,9 +13,27 @@ const EmailClient = () => {
     ];
 
     const emails = [
-        { id: 1, subject: 'Welcome to our service', sender: 'info@example.com', preview: 'Thank you for signing up...', folder: 'inbox' },
-        { id: 2, subject: 'Your invoice', sender: 'billing@example.com', preview: 'Please find attached your latest invoice...', folder: 'inbox' },
-        { id: 3, subject: 'Meeting reminder', sender: 'team@example.com', preview: 'Don\'t forget our team meeting tomorrow at 10 AM...', folder: 'inbox' },
+        {
+            id: 1,
+            subject: 'Time to Check-in: Flight DL1234 from Atlanta to New York',
+            sender: 'checkin@delta.com',
+            preview: 'It’s time to check in for your flight DL1234 from Atlanta to New York. Your flight departs on September 15th...',
+            folder: 'inbox'
+        },
+        {
+            id: 2,
+            subject: 'Check-in Now Available: Flight DL5678 from New York to Los Angeles',
+            sender: 'checkin@delta.com',
+            preview: 'Check-in is now available for your flight DL5678 from New York to Los Angeles. Please confirm your seat...',
+            folder: 'inbox'
+        },
+        {
+            id: 3,
+            subject: 'Don’t Forget to Check-in: Flight DL9101 from Los Angeles to Chicago',
+            sender: 'checkin@delta.com',
+            preview: 'Check-in is required for your flight DL9101 from Los Angeles to Chicago. Complete your check-in to secure your seat...',
+            folder: 'inbox'
+        },
     ];
 
     const filteredEmails = emails.filter(email => email.folder === selectedFolder);
@@ -25,12 +43,12 @@ const EmailClient = () => {
             {/* Sidebar */}
             <div className="w-64 bg-white border-r">
                 <div className="p-4">
-                    <h2 className="text-xl font-semibold mb-4">Email Client</h2>
+                    <h2 className="text-3xl font-semibold mb-4">Email Client</h2>
                     <ul>
                         {folders.map((folder) => (
                             <li
                                 key={folder.name}
-                                className={`flex items-center p-2 cursor-pointer ${selectedFolder === folder.name.toLowerCase() ? 'bg-blue-100' : ''
+                                className={`flex items-center p-2 cursor-pointer  ${selectedFolder === folder.name.toLowerCase() ? 'bg-blue-100' : ''
                                     }`}
                                 onClick={() => setSelectedFolder(folder.name.toLowerCase())}
                             >
@@ -43,16 +61,16 @@ const EmailClient = () => {
             </div>
 
             {/* Email list */}
-            <div className="w-1/3 bg-white border-r overflow-y-auto">
+            <div className="w-1/3 bg-white border-r overflow-y-auto text-left">
                 <div className="p-4">
-                    <h3 className="text-lg font-semibold mb-4">
+                    <h3 className="text-2xl font-semibold mb-4">
                         {selectedFolder.charAt(0).toUpperCase() + selectedFolder.slice(1)}
                     </h3>
                     <ul>
                         {filteredEmails.map((email) => (
                             <li
                                 key={email.id}
-                                className={`p-2 cursor-pointer ${selectedEmail === email.id ? 'bg-blue-100' : ''
+                                className={`p-2 cursor-pointer ${selectedEmail === email.id ? 'bg-gray-100 rounded-md' : ''
                                     }`}
                                 onClick={() => setSelectedEmail(email.id)}
                             >
@@ -66,7 +84,7 @@ const EmailClient = () => {
             </div>
 
             {/* Email viewer */}
-            <div className="flex-1 bg-white p-4 overflow-y-auto">
+            <div className="flex-1 bg-white p-4 overflow-y-auto text-left">
                 {selectedEmail ? (
                     <div>
                         <h3 className="text-xl font-semibold mb-2">
@@ -75,7 +93,11 @@ const EmailClient = () => {
                         <p className="text-sm text-gray-600 mb-4">
                             From: {emails.find((e) => e.id === selectedEmail).sender}
                         </p>
-                        <p>{emails.find((e) => e.id === selectedEmail).preview}</p>
+                        <p className="pb-4">{emails.find((e) => e.id === selectedEmail).preview}</p>
+                        <button className="flex items-center justify-center px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600 transition duration-300 ease-in-out transform hover:scale-105">
+                            <Plane className="mr-2" size={18} />
+                            Check In
+                        </button>
                     </div>
                 ) : (
                     <div className="flex items-center justify-center h-full text-gray-500">
