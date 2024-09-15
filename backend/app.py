@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/find-availability', methods=['GET'])
 def find_availability():
     try:
-        result = subprocess.run(['python3', 'utils/gcal/gcal2.py'], capture_output=True, text=True)
+        result = subprocess.run(['python3', 'gcal2.py'], capture_output=True, text=True)
         return jsonify({
             'status': 'success',
             'output': result.stdout,
