@@ -28,6 +28,7 @@ def calauth():
     return service
 
 def freeSlots(busy_times, start_time, end_time):
+    
     free_slots = []
     current_time = start_time
 
