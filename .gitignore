@@ -1,3 +1,5 @@
 venv/
 **.txt
+**/node_modules/**
 **.png
+**/.next/**
