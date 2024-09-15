@@ -4,3 +4,4 @@ venv/
 **.png
 **/.next/**
 **/.idea/**
+!website/public/
