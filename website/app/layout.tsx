@@ -9,6 +9,7 @@ const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
+
 export const metadata: Metadata = {
   title: "i love email lol",
   description: "The startup template from i love email lol",
