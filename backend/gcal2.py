@@ -1,12 +1,9 @@
-from flask import Flask, jsonify
 import os.path
 import datetime
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
-
-app = Flask(__name__)
 
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 
@@ -28,7 +25,6 @@ def calauth():
     return service
 
 def freeSlots(busy_times, start_time, end_time):
-    
     free_slots = []
     current_time = start_time
 
@@ -44,7 +40,7 @@ def freeSlots(busy_times, start_time, end_time):
 
     return free_slots
 
-def checkAvail(service, days):
+def checkAvail(service, days, time_range):
     calendar_id = 'primary'
     free_slots = []
 
@@ -94,22 +90,10 @@ def freeSlotsOutput(free_slots):
     out1 += "\nIf you'd like for me to provide more availability, I'd be happy to do so!\n\nThanks,\nNeil"    
     return out1
 
-@app.route('/find-availability', methods=['GET'])
-def find_availability():
-    try:
-        service = calauth()
-        days = ['Monday', 'Tuesday', 'Friday']
-        free_slots = checkAvail(service, days)
-        email_content = freeSlotsOutput(free_slots)
-        return jsonify({
-            'status': 'success',
-            'availability': email_content,
-        })
-    except Exception as e:
-        return jsonify({
-            'status': 'error',
-            'message': str(e)
-        })
-
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    service = calauth()
+    days = ['Monday', 'Tuesday', 'Friday']
+    time_range = [('9:00 AM', '5:00 PM')]
+    free_slots = checkAvail(service, days, time_range)
+    email_content = freeSlotsOutput(free_slots)
+    print(email_content)
