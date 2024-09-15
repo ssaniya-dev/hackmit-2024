@@ -9,7 +9,7 @@ export default async function Page() {
   return (
     <>
       <HeroSection />
-      <ClientSection />
+      {/*<ClientSection />*/}
       <SphereMask />
       {/*<PricingSection />*/}
       <CallToActionSection />

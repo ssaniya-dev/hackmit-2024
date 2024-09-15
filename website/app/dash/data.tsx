@@ -1,5 +1,95 @@
 export const mails = [
   {
+    id: "yc-interview-2024",
+    name: "Michael Seibel",
+    email: "michael@ycombinator.com",
+    subject: "YC Interview Availability",
+    text: "Hi Neil,\n\nI hope this email finds you well. We're excited to move forward with your YC application and would like to schedule an interview with you and your team.\n\nCould you please provide your availability for next week, Monday through Friday, between 9 AM and 5 PM PT? We'll do our best to accommodate your schedule.\n\nPlease reply with your preferred time slots, and we'll confirm the exact time and provide further details about the interview process.\n\nLooking forward to speaking with you!\n\nBest regards,\nMichael Seibel\nY Combinator",
+    date: "2024-09-15T10:30:00.000Z",
+    read: false,
+    labels: ["important"],
+    draft: {
+      text: "Hi!\n" +
+        "\n" +
+        "It's great to hear from you, here's my availability in the coming week for an interview:\n" +
+        "\n" +
+        "Monday, September 16: 9:00 AM - 9:33 AM, 12:26 PM - 3:30 PM\n" +
+        "Tuesday, September 17: 9:00 AM - 5:00 PM\n" +
+        "Friday, September 20: 9:00 AM - 5:00 PM\n" +
+        "\n" +
+        "If you'd like for me to provide more availability, I'd be happy to do so!\n" +
+        "\n" +
+        "Thanks,\n" +
+        "Neil\n"
+    }
+  },
+  {
+    id: "e4eb8adb-e034-4f2a-b19e-7f45ee23d690",
+    name: "Delta Air Lines",
+    email: "DeltaAirLines@t.delta.com",
+    subject: "It's Time To Check In For Your Flight",
+    text: "Hey hackers,\n\nAttached, you can find the easy bill of sale form. Please send it back filled out – Happy hacking!\n\nCheers,\nMarvin",
+    html: "/delta.html",
+    date: "2024-09-15T00:57:53.000Z",
+    read: true,
+    labels: [],
+    summary: "Your flight is soon; we checked you in for your convenience.",
+  },
+  {
+    id: "8c84fb90-12c4-11e1-840d-7b25c5ee775a",
+    name: "Marvin von Hagen",
+    email: "hagen@mit.edu",
+    subject: "[HackMIT-hard] Bill of Sale",
+    text: "Hey hackers,\n\nAttached, you can find the harder bill of sale form. Please send it back filled out – Happy hacking!\n\nCheers,\nMarvin",
+    date: "2024-09-14T06:23:00.000Z",
+    read: false,
+    labels: ["work", "important"],
+    attachments: [
+      {
+        "mimeType": "application/pdf",
+        "filename": "hard-pdf.pdf",
+        "attachmentLink": "https://drive.google.com/uc?export=download&id=1sydBd9U0gPnVQoNJgmgII3B3VgY9fg6M"
+      }
+    ],
+    draft: {
+      attachments: [
+        {
+          "mimeType": "application/pdf",
+          "filename": "hard-pdf.pdf",
+          "attachmentLink": "https://drive.google.com/uc?export=download&id=1sydBd9U0gPnVQoNJgmgII3B3VgY9fg6M"
+        }
+      ],
+      text: "Hey!\n\nI've attached the filled out bill of sale form. Please review and let me know if you have any questions. Thanks!\n\nCheers,\nNeil"
+    },
+  },
+  {
+    id: "8c84fb90-12c4-11e1-840d-7b25c5ee775b",
+    name: "Marvin von Hagen",
+    email: "hagen@mit.edu",
+    subject: "[HackMIT-easy] Bill of Sale",
+    text: "Hey hackers,\n\nAttached, you can find the easy bill of sale form. Please send it back filled out – Happy hacking!\n\nCheers,\nMarvin",
+    date: "2024-09-14T06:23:00.000Z",
+    read: false,
+    labels: ["work", "important"],
+    attachments: [
+      {
+        "mimeType": "application/pdf",
+        "filename": "easy-pdf.pdf",
+        "attachmentLink": "https://drive.google.com/uc?export=download&id=1sydBd9U0gPnVQoNJgmgII3B3VgY9fg6M"
+      }
+    ],
+    draft: {
+      attachments: [
+        {
+          "mimeType": "application/pdf",
+          "filename": "easy-pdf.pdf",
+          "attachmentLink": "https://drive.google.com/uc?export=download&id=1sydBd9U0gPnVQoNJgmgII3B3VgY9fg6M"
+        }
+      ],
+      text: "Hello Marvin,\n\nI've attached the completed bill of sale form. Please let me know if you need any additional information or clarification.\n\nBest regards,\nNeil"
+    },
+  },
+  {
     id: "6c84fb90-12c4-11e1-840d-7b25c5ee775a",
     name: "William Smith",
     email: "williamsmith@example.com",
@@ -18,6 +108,7 @@ export const mails = [
     date: "2023-10-22T10:30:00",
     read: true,
     labels: ["work", "important"],
+    summary: "Positive feedback on project update with minor suggestions.",
   },
   {
     id: "3e7c3f6d-bdf5-46ae-8d90-171300f27ae2",
@@ -38,6 +129,7 @@ export const mails = [
     date: "2023-03-25T13:15:00",
     read: false,
     labels: ["work", "budget"],
+    summary: "Question about budget discrepancy and resource allocation.",
   },
   {
     id: "8f7b5db9-d935-4e42-8e05-1f1d0a3dfb97",
@@ -48,6 +140,7 @@ export const mails = [
     date: "2023-03-10T15:00:00",
     read: false,
     labels: ["meeting", "work", "important"],
+    summary: "Strategic shift in product launch strategy.",
   },
   {
     id: "1f0f2c02-e299-40de-9b1d-86ef9e42126b",
@@ -205,6 +298,10 @@ export const accounts = [
 export type Account = (typeof accounts)[number]
 
 export const contacts = [
+  {
+    name: "Marvin von Hagen",
+    email: "hagen@mit.edu"
+  },
   {
     name: "Emma Johnson",
     email: "emma.johnson@example.com",
