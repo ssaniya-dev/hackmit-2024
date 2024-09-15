@@ -7,7 +7,7 @@ type Config = {
 }
 
 const configAtom = atom<Config>({
-  selected: mails[0].id,
+  selected: mails[3].id,
 })
 
 export function useMail() {
