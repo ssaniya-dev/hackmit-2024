@@ -112,7 +112,7 @@ export function SiteHeader() {
                 buttonVariants({ variant: "secondary" }),
                 "mr-6 text-sm"
               )}
-              href="/signup"
+              href="https://dominant-grubworm-52.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard"
             >
               Sign up
             </Link>

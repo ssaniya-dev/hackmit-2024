@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-js": "^5.21.2",
     "@hookform/resolvers": "^3.3.4",
     "@instantdb/react": "^0.12.37",
     "@radix-ui/react-avatar": "^1.1.0",

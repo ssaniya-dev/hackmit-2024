@@ -42,7 +42,7 @@ export const mails = [
         {
           "mimeType": "application/pdf",
           "filename": "hard-pdf.pdf",
-          "attachmentLink": "https://drive.google.com/uc?export=download&id=1sydBd9U0gPnVQoNJgmgII3B3VgY9fg6M"
+          "attachmentLink": "/hard-pdf-filled.pdf"
         }
       ],
       text: "Hey!\n\nI've attached the filled out bill of sale form. Please review and let me know if you have any questions. Thanks!\n\nCheers,\nNeil"
@@ -69,7 +69,7 @@ export const mails = [
         {
           "mimeType": "application/pdf",
           "filename": "easy-pdf.pdf",
-          "attachmentLink": "https://drive.google.com/uc?export=download&id=1sydBd9U0gPnVQoNJgmgII3B3VgY9fg6M"
+          "attachmentLink": "/easy-pdf-filled.pdf"
         }
       ],
       text: "Hello Marvin,\n\nI've attached the completed bill of sale form. Please let me know if you need any additional information or clarification.\n\nBest regards,\nNeil"
