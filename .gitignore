@@ -1,3 +1,6 @@
-venv
+venv/
 **.txt
+**/node_modules/**
 **.png
+**/.next/**
+**/.idea/**
