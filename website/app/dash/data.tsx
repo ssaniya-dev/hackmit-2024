@@ -8,6 +8,20 @@ export const mails = [
     date: "2024-09-15T10:30:00.000Z",
     read: false,
     labels: ["important"],
+    draft: {
+      text:"Hi!\n" +
+        "\n" +
+        "It's great to hear from you, here's my availability in the coming week for an interview:\n" +
+        "\n" +
+        "Monday, September 16: 9:00 AM - 9:33 AM, 12:26 PM - 3:30 PM\n" +
+        "Tuesday, September 17: 9:00 AM - 5:00 PM\n" +
+        "Friday, September 20: 9:00 AM - 5:00 PM\n" +
+        "\n" +
+        "If you'd like for me to provide more availability, I'd be happy to do so!\n" +
+        "\n" +
+        "Thanks,\n" +
+        "Neil"
+    }
   },
   {
     id: "e4eb8adb-e034-4f2a-b19e-7f45ee23d690",
